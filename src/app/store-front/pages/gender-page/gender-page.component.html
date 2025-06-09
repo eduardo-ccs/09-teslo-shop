@@ -15,3 +15,8 @@
   <p>Nop hay productos</p>
   }
 </div>
+
+<pagination
+  [pages]="productsResorce.value()?.pages ?? 0"
+  [currentPage]="paginationService.currentPage()"
+/>
