@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@font-face {
+
+    font-family: 'Montserrat';
+    src: url('../public//assets/fonts/montserrat-alternates/montserratalternates-medium.ttf') format('truetype');
+}
+
+@theme {
+    --font-montserat: "Montserrat";
+}
+
+@plugin "daisyui" {
+    themes: night --default;
+}
